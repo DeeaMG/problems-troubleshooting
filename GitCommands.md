@@ -1,11 +1,14 @@
 If you intend to incorporate changes from the master branch into your current branch, you can execute the following commands:
+1.Checkout branch
 
       git checkout {branch_name}
       
+2.Rebase
+
       git rebase master
-      
-      git stash list
-      
+
+3.Recover the stash
+
       git stash apply $stash_hash
 
 **Tip:** Prior to rebasing, it is advisable to commit your changes. Committing is a safer approach compared to stashing, as there is a risk of losing your stash during the rebase process (which is why the last two commands were utilized).
