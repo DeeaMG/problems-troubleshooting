@@ -1,4 +1,5 @@
 If you intend to incorporate changes from the master branch into your current branch, you can execute the following commands:
+
 1.Checkout branch
 
       git checkout {branch_name}
